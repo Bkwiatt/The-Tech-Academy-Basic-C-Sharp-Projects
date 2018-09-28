@@ -16,11 +16,12 @@ namespace ConsoleApp8
 
             Console.WriteLine(sb);
 
-            string s1 = ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHello ");
+            string s1 = ("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHello ");
             string s2 = ("there ");
             string s3 = ("mate!");
+            
 
-            Console.WriteLine(s1 + s2 + s3);
+            Console.WriteLine(s1 + s2 + s3.ToUpper());
 
 
 
